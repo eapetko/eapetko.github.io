@@ -1,0 +1,62 @@
+span{
+	display: block;
+}
+p.header {
+	font-family: Tahoma;
+	font-size: 24px;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+.form {
+	padding: 30px auto;
+	border: 5px solid #2949d1;
+}
+.form p {
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+input {
+	margin: 10px auto;
+}
+.btn-fr {
+	background-color: #2949d1;
+	margin-bottom: 30px; 
+}
+.fich {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 150px;
+	margin-bottom: 80px;
+}
+.feature-box p{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 95px;
+	height: 160px;
+}
+.video {
+	margin: 30px;
+}
+.feature-box {
+	height: 160px;
+}
+.btn-ph {
+	background-color: #2949d1;
+	margin-bottom: 30px;
+	margin: 100px auto; 
+}
+.clients {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 70px;
+}
+.client {
+	margin-bottom: 30px;
+}
