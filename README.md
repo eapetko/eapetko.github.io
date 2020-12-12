@@ -10,3 +10,5 @@
 [Урок 9](eapetko.github.io/lesson_9/index.html "Заработай миллион")- Моя первая адаптивная верстка
 
 [Урок 13](eapetko.github.io/lesson_13/index.html "Форма")- Верстка Perfect Pixel
+
+[Урок 14](eapetko.github.io/lesson_14/index.html "Автоматизированная штукатурка стен")- Верстка шапки
