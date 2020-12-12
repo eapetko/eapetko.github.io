@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), url('opensans.woff2') format('woff2'), url('opensans.woff') format('woff'), url('opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular'), local('BebasNeueRegular'), url('bebasneueregular.woff2') format('woff2'), url('bebasneueregular.woff') format('woff'), url('bebasneueregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'), local('Lato-Regular'), url('latoregular.woff2') format('woff2'), url('latoregular.woff') format('woff'), url('latoregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lobster';
+    src: local('Lobster'), url('lobster.woff2') format('woff2'), url('lobster.woff') format('woff'), url('lobster.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font_1 {
+	font-family: 'Open sans', sans-serif;
+}
+.font_2 {
+	font-family: 'Bebas Neue', sans-serif;
+}
+.font_3 {
+	font-family: Lato, sans-serif;
+}
+.font_4 {
+	font-family: Lobster, sans-serif;
+}
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
