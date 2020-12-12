@@ -1,0 +1,84 @@
+body {
+
+
+}
+form {
+	text-align: left;
+	font-family: Arial, serif;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 38px;
+}
+input {
+	background-image: url(../img/bg.png);
+	height: 30px;
+	width: 245px;
+	margin-bottom: -30px;
+	padding-left: 10px;
+	border: #cfdede solid 1px;
+
+}
+.parag {
+	margin-top: -14px;
+	margin-bottom: 12px;
+}
+.valid {
+	background-color: #fff;
+	width: 320px;
+	height: 370px;
+	margin: 100px 125px;
+	position: relative;
+
+}
+.forch {
+	position: absolute;	
+	right: 23%;
+	left: 31%;
+	top: -2px;
+	height: 570px;
+	width: 570px;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+
+	}
+.ribbon {
+	width: 150px;
+	height: 25px;
+	top: -2px;
+	left: 30px;
+	position: relative;
+	background-image: url(../img/ribbon.png);
+	background-repeat: no-repeat;
+	background-size: 150px 26px;
+	background-clip: border-box;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align:center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 7px;
+}
+.new{
+	font-family: Arial, serif;
+	font-style: italic;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.four {
+	margin: 30px;
+}
+.btn {
+	height: 45px;
+	width: 260px;
+	margin-top: 45px;
+	margin-bottom: 30px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background: rgb(1,197,197);
+	background: linear-gradient(180deg, rgba(1,197,197,1) 29%, rgba(1,177,177,1) 100%);
+	text-transform: uppercase;
+	border: #06bfbf solid 1px;
+}
