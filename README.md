@@ -12,3 +12,5 @@
 [Урок 13](eapetko.github.io/lesson_13/index.html "Форма")- Верстка Perfect Pixel
 
 [Урок 14](eapetko.github.io/lesson_14/index.html "Автоматизированная штукатурка стен")- Верстка шапки
+
+[Урок 15](eapetko.github.io/lesson_15/index.html "Различные шрифты") - Знакомство со шрифтами
