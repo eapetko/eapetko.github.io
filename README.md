@@ -14,3 +14,5 @@
 [Урок 14](eapetko.github.io/lesson_14/index.html "Автоматизированная штукатурка стен")- Верстка шапки
 
 [Урок 15](eapetko.github.io/lesson_15/index.html "Различные шрифты") - Знакомство со шрифтами
+
+[Урок 16](https://github.com/eapetko/eapetko.github.io/blob/main/lesson_14/index.html "Штукатурка") - Верстка первого экрана
