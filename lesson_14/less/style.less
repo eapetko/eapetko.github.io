@@ -51,6 +51,14 @@ html{
 body {
 	.reg();
 }
+a:hover{
+	text-decoration: none;
+}
+button, input, a {
+	&:focus{
+		outline: none;
+	}
+}
 // кнопка в шапке
 .button {
 	background-color: @btn-color;
@@ -60,8 +68,16 @@ body {
 	border-radius: 8px;
 	border: none;
 	text-transform: uppercase;
+	border: none;
+	transition: all 0.2s;
+	&:hover{
+		cursor: pointer;
+		background-color: darken(@btn-color, 7%);
+	}
+	&-tmp-btn {
+		text-align: right;
+	}
 }
-
 /* Typography */
 section {
 	padding: 10rem 0;
@@ -76,12 +92,17 @@ section {
 		margin-top: 10rem;
 		h1 {
 			// главный заголовок
+			margin-top: 0;
 			margin-bottom: 4rem;
 			line-height: 1.45;
 			text-transform: uppercase;
 			font-size: 4rem;
 			.bold();
 		}
+	}
+	&-title {
+		text-align: center;
+
 	}
 	&-subtitle {
 		// пщзаголовок
@@ -125,8 +146,11 @@ span {
 	// Поле для ввода
 	&-input {
 		display: block;
-		margin: 2rem;
+		text-align: center;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 		border: 1px solid @border-input;
+		border-radius: 5px;
 		width: 100%;
 		padding: 1.5rem;
 	}
@@ -143,6 +167,7 @@ span {
 	// кнопка отправить заявку
 	&-btn {
 		display: block;
+		text-align: center;
 		height: 5.5rem;
 		width: 100%;
 		font-size: 1.6rem;
@@ -157,7 +182,14 @@ span {
 
 }
 .header{
+	display: inline-block;
+	position: static;
 	height: 7rem;
+	width: 100%;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
 }
 .wrap {
 	display: table;
@@ -180,3 +212,60 @@ span {
 		text-align: right;
 	}
 }
+@media(max-width: 991px) {
+	.main {
+		background-position: top right;
+	}
+	.phone{
+		&-block {
+			text-align: center;
+		}
+		display: block;
+	}
+	.main-content {
+		margin-top: 3rem;
+	}
+	.main-title {
+		padding-bottom: 3rem;
+		text-align: center;
+	}
+}
+@media only screen and (max-device-width: 767px) {
+	.main {
+		background-position: top 6rem left;
+	}
+	.header {
+		height: auto;
+		top: 60px;
+	}
+	.phone-block {
+		position: fixed;
+		top: 2px;
+		left: 20%;
+		text-align: left;
+	}
+	.logo {
+		text-align: center;
+		width: 200px;
+		height: 70px;
+		bottom: -70px;
+
+	}
+	.wrap {
+		text-align: right;
+		&-block {
+			position: fixed;
+    		top: 12px;
+    		right: 20%;
+		}
+	}
+	.col-12 {
+		width: 100%;
+	}
+	.main-form {
+		padding: 25px 20px;
+		position: relative;
+    	left: -15%;
+}
+	
+}    
