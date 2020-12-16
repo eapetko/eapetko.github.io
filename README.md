@@ -18,3 +18,5 @@
 [Урок 16](https://github.com/eapetko/eapetko.github.io/blob/main/lesson_14/index.html "Штукатурка") - Верстка первого экрана
 
 [Урок 17](eapetko.github.io/lesson_16/index.html "Картинки") -Изучение псевдоклассов и псевдоэлементов
+
+[Урок 18](eapetko.github.io/lesson_14/index.html "Штукатурка") - Работа с адаптивностью сайта
