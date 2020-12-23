@@ -22,3 +22,5 @@
 [Урок 18](eapetko.github.io/lesson_14/index.html "Штукатурка") - Работа с адаптивностью сайта
 
 [Урок 19](eapetko.github.io/lesson_19/index.html "Слайдеры") - Работа со слайдерами
+
+[Урок 20](eapetko.github.io/lesson_20/index.html "Преимущества") - Оформление блока с преимуществами
