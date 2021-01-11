@@ -24,3 +24,5 @@
 [Урок 19](eapetko.github.io/lesson_19/index.html "Слайдеры") - Работа со слайдерами
 
 [Урок 20](eapetko.github.io/lesson_20/index.html "Преимущества") - Оформление блока с преимуществами
+
+[Урок 21](eapetko.github.io/index.html "Окно"] - Создание модальных окон
