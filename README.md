@@ -26,3 +26,5 @@
 [Урок 20](eapetko.github.io/lesson_20/index.html "Преимущества") - Оформление блока с преимуществами
 
 [Урок 21](eapetko.github.io/home-work-17/index.html "Окно") - Создание модальных окон
+
+[Урок 22](eapetko.github.io/lesson_22/index.html "Штукатурка") - Модальное окно на сайте
