@@ -9,3 +9,9 @@ global.app = {
 	path: path,
 	gulp: gulp
 }
+
+// Импорт задач
+import { copy } from "./gulp/tasks/copy.js";
+
+// Выполнение сценария по умолчанию
+gulp.task('default', copy);
